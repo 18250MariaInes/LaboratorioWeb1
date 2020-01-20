@@ -1,9 +1,16 @@
 .gbackground {
+  display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
     border: 1px solid black;
-    height: 500px;
+    height: 700px;
     position: absolute;
     width: 1550px;
     background-color: #D5cfcf 
+
     
 }
 .topheader{
@@ -27,6 +34,7 @@
     font-weight: bold;
     /*flex-grow: 1;*/
     align-self: center;
+    margin-left: 2rem;
 
 }
 .purpose_name{
@@ -46,7 +54,7 @@
     align-self: center;
 }
 .password_icon{
-	color: #1AE8E5;
+	  color: #019c97;
     font-size: 1rem;
     font-weight: bold;
     flex-direction: row;
@@ -70,23 +78,143 @@
 }
 .rightColumn{
 	display: -webkit-box;
-  	display: -moz-box;
-  	display: -ms-flexbox;
-  	display: -webkit-flex;
-  	display: flex;
-	/*border: 1px solid black;*/
-	position: relative;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	/*position: relative;*/
 	background-color: white;
-	height:75px;
-	width: 100px;            
+	height:600px;
+	width: 220px;            
 	justify-content: flex-end;
 	flex-direction: column;
 	overflow: hidden;
 	border-radius: 2rem;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+  display: block;
+  margin-top: 2rem;
+  /*margin-right: 2rem*/
+  margin-left: 2rem;
+  overflow: hidden;
+}
+
+.rightColumn h3{
+  color: grey;
+  margin-left: 1rem;
+}
+
+.rightColumn h2{
+  color: black;
+  margin-left: 1rem;
+}
+
+.rightColumn h3:hover{
+  color: #019c97;
+  text-decoration: underline;
+}
+
+h4{
+  margin-left: 1rem;
+}
+
+input{
+  margin-left: 1rem;
+  text-decoration: "Buscar Paquete"
+}
+
+.tittleContainer{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+}
+
+.bodyContainer{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+}
+
+.tittleContainer h3:hover{
+  color: #019c97;
+  text-decoration: underline;
+}
+
+.tittleContainer h5:hover{
+  color: #019c97;
+  text-decoration: underline;
+}
+
+button{
+  border-radius: 2rem;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+  height: 50px;
+  margin-top: 1rem;
+  width: 150px;
+}
+
+.bookContainer{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+}
+
+.book {
+    border-radius: 2rem;
     box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
     display: block;
     margin-bottom: 2rem;
-    margin-top: 2rem;
     overflow: hidden;
+    width: 226px;
+    margin-left: 3rem;
 }
+
+.book__image {
+    background-position: center;;
+    background-size: cover;
+    height: 18rem
+}
+
+.book__footer {
+    background: white;
+    padding: 16px;
+    position: relative;
+}
+
+.book__tittle {
+    color: #019c97;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.book__size {
+    color: #777777;
+    font-size: 1rem;
+}
+
+.book__actions {
+    bottom: 0;
+    height: 14rem;
+    position: absolute;
+    right: 0;
+    width: 12rem;
+}
+
+.info__container{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+}
+
 
