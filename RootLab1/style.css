@@ -8,12 +8,12 @@
     height: 700px;
     position: absolute;
     width: 1550px;
-    background-color: #D5cfcf 
+    background-color: #EBEAEA; 
 
     
 }
 body{
-  background-color: #D5cfcf
+  background-color: #EBEAEA;
 }
 .topheader{
 	display: -webkit-box;
