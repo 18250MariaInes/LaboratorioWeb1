@@ -1,0 +1,92 @@
+.gbackground {
+    border: 1px solid black;
+    height: 500px;
+    position: absolute;
+    width: 1550px;
+    background-color: #D5cfcf 
+    
+}
+.topheader{
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+	border: 1px solid black;
+	position: relative;
+	background-color: white;
+	height:75px;
+	width: 1530px;            
+	justify-content: flex-start;
+	flex-direction: row;
+
+}
+.school_name{
+	color: #019c97;
+    font-size: 2rem;
+    font-weight: bold;
+    /*flex-grow: 1;*/
+    align-self: center;
+
+}
+.purpose_name{
+	color: grey;
+    font-size: 1rem;
+    font-weight: bold;
+    /*flex-grow: 100;*/
+    align-self: center;
+    
+}
+.lock_image {
+    background-position: center;;
+    background-size: cover;
+    height: 1rem
+    flex-direction: row;
+    flex-grow: 100;
+    align-self: center;
+}
+.password_icon{
+	color: #1AE8E5;
+    font-size: 1rem;
+    font-weight: bold;
+    flex-direction: row;
+    /*flex-grow: 30;*/
+    align-self: center ;
+}
+.righttopheader{
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+	/*border: 1px solid black;*/
+	position: relative;
+	background-color: white;
+	height:75px;
+	width: 1530px;            
+	justify-content: flex-end;
+	flex-direction: row;
+	overflow: hidden;
+}
+.rightColumn{
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+	/*border: 1px solid black;*/
+	position: relative;
+	background-color: white;
+	height:75px;
+	width: 100px;            
+	justify-content: flex-end;
+	flex-direction: column;
+	overflow: hidden;
+	border-radius: 2rem;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
