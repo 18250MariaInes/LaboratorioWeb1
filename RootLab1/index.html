@@ -7,6 +7,7 @@
 	<title>Maquetacion</title>
 </head>
 <body>
+	<!--Encabezado de pagina web con un gran cointainer que posee el nombre del colegio, descripcion, boton contraseñas y a perfil de John-->
 	<div class="topheader">
 	  	<div class="school_name">
 	  		Colegio Montano
@@ -14,17 +15,22 @@
 	  	<div class="purpose_name" style="margin-left: 2rem">
 	  		libros electronicos
 	  	</div>
-	  	<div class="password_icon" style="margin-left: 50rem">
+	  	<h1 style="color: lightgrey; margin-left: 50rem">|</h1>
+	  	<div class="page__icon" style="background-image: url(https://storage.needpix.com/rsynced_images/lock-2430207_1280.png); margin-left: 1rem"  ></div>
+	  	<div class="password_icon" >
 	  		Contraseñas
 	  	</div>
-	  	<div class="password_icon" style="margin-left: 3rem">
+	  	<h1 style="color: lightgrey; margin-left: 1rem">|</h1>
+	  	<div class="password_icon" style="margin-left: 1rem">
 	  		John Doe
-	  	</div>	  	
+	  	</div>	
+	  	<div class="page__icon" style="background-image: url(https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-round-1/254000/38-512.png); margin-left:4px"  ></div>  	
 	  </div>
+	 <!--Este es el containe de todo el body de la pagina web, este es un flex box que guarda todo en direccion row-->
 	<div class="gbackground">
-	      
+	     <!--Esta es la columna de la izquierda, es un contenedor que guarda los elementos en columna. Al pasar el mouse aparentan ser item clickeables--> 
 	      <div class="rightColumn">
-	      	<h2>Paquetes</h2>
+	      	<h2 style="color:#019c97 ">Paquetes</h2>
 	      	<h3>Primero Básico (8)</h3>
 	      	<h3>Segundo Básico (12)</h3>
 	      	<h3>Tercero Básico (3)</h3>
@@ -33,29 +39,36 @@
 	      	<h3>Cuarto Secretariado Bilingüe(8)</h3>
 	      	<h3>Quinto Secretariado Bilingüe(11)</h3>
 	      	<h2>-----------------------</h2>
-	      	<h4>AGREGAR PAQUETES</h4>
+			<!--Esta seccion hay un search box para agregar paqueres. Esta igualemente está en un flexbox con el botón para buscar--> 
+	      	<h4 style="color: #019c97">AGREGAR PAQUETES</h4>
 	      	<div class="search__container">
 	      		<input type="text" placeholder="Buscar Paquete" style="width:120px; height: 1rem; align-self: center">
 	      		<button style="margin-left: 1rem;color: white;background-color: #019c97; width: 2rem; height: 2rem; align-self: center">+</button>
 	      	</div>
       		
 	      </div>
+	      <!--Esta sección es la más grande, donde se encuentran los libros con otras seccion. Este es otro flexbox que guarda todo como columna--> 
 	      <div class="bodyContainer">
+	      	<!--La primera parte del body es otro flexbox donde se visualiza el grado del cual pertenecen los libros y otras acciones como borrar, editar, agregar libro o agregar categoría--> 
 	      	<div class="tittleContainer">
-		      	<h1 style="margin-left: 3rem">Primer Básico</h1>
-		      	<h5 style="margin-left: 1rem">Editar</h5>
-		      	<h5 style="margin-left: 1rem">Borrar</h5>
+		      	<h1 style="margin-left: 3rem; color: #019c97">Primer Básico</h1>
+		      	<div class="page__icon" style="background-image: url(https://cdn4.iconfinder.com/data/icons/social-messaging-ui-coloricon-1/21/52-512.png); margin-left:4px"  ></div>  	
+		      	<div class="page__icon" style="background-image: url(https://i.ya-webdesign.com/images/editar-imagenes-png-14.png); margin-left:4px"  ></div>  	
 		      	<button style="margin-left: 30rem; background-color: green; color: white"> Agregar libro</button>
 		      	<button style="margin-left: 3rem; background-color: #019c97; color: white"> Agregar categoría</button>
 		      	
 		  	</div>
-		  	<hr width="90%" align="center" noshade>
+		  	<hr color: red width="90%" align="center" noshade>
+		  	<!--Esta sección se visualizan las pestañas de libros en español y en inglés, siendo otro flexbox--> 
 		  	<div class="tittleContainer">
-		  		<h3 style="margin-left: 3rem">Idioma español</h3>
-		  		<h3 style="margin-left: 3rem">Idioma ingles</h3>
+		  		<h3 style="margin-left: 3rem; color: grey">Idioma español</h3>
+		  		<div class="page__icon" style="background-image: url(https://cdn4.iconfinder.com/data/icons/computer-network-6/64/garbage-trash-bin-delete-512.png); margin-left:4px"  ></div>
+		  		<h3 style="margin-left: 3rem; color: grey">Idioma ingles</h3>
+		  		<div class="page__icon" style="background-image: url(https://cdn4.iconfinder.com/data/icons/computer-network-6/64/garbage-trash-bin-delete-512.png); margin-left:4px"  ></div>
 		  	</div>
 		  	<hr width="90%" align="center" noshade>
 		  	<hr>
+		  	<!--Esta sección es la muestra los libros, es otro flexbox que contiene las cajas informativas sobre cada libro. También tiene un wrap en el cual al haber más libros, estos se van acomodando abajo, cada libro tiene su nombre, tamaño, foto de portada y un botón para más información--> 
 		  	<div class="bookContainer">
 		  		<!--Libro de principito-->
 		  		<div class="book">

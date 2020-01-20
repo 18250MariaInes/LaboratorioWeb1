@@ -51,9 +51,8 @@ body{
     background-position: center;;
     background-size: cover;
     height: 1rem
-    flex-direction: row;
     flex-grow: 100;
-    align-self: center;
+    align-self: center;*/
 }
 .password_icon{
 	  color: #019c97;
@@ -237,6 +236,14 @@ button{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+}
+
+.page__icon{
+  background-position: center;;
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+  align-self: center;
 }
 
 
