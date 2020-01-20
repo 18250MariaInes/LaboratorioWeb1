@@ -5,7 +5,6 @@
     display: -webkit-flex;
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
     height: 700px;
     position: absolute;
     width: 1550px;
@@ -13,17 +12,20 @@
 
     
 }
+body{
+  background-color: #D5cfcf
+}
 .topheader{
 	display: -webkit-box;
   	display: -moz-box;
   	display: -ms-flexbox;
   	display: -webkit-flex;
   	display: flex;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	position: relative;
 	background-color: white;
 	height:75px;
-	width: 1530px;            
+	width: 1550px;            
 	justify-content: flex-start;
 	flex-direction: row;
 
@@ -165,6 +167,7 @@ button{
   display: -webkit-flex;
   display: flex;
   flex-direction: row;
+  flex-flow: row wrap;
 }
 
 .book {
@@ -200,13 +203,6 @@ button{
     font-size: 1rem;
 }
 
-.book__actions {
-    bottom: 0;
-    height: 14rem;
-    position: absolute;
-    right: 0;
-    width: 12rem;
-}
 
 .info__container{
   display: -webkit-box;
@@ -215,6 +211,32 @@ button{
   display: -webkit-flex;
   display: flex;
   flex-direction: row;
+}
+
+.info__container button{
+  width: 1rem;
+  margin-left: 5rem;
+  align-self: flex-start;
+  height: 2rem; 
+}
+
+.search__container{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+}
+
+.trycontainer{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 
