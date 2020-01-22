@@ -158,7 +158,9 @@ button{
   margin-top: 1rem;
   width: 150px;
 }
-
+hr{
+  color: lightgrey;
+}
 .bookContainer{
   display: -webkit-box;
   display: -moz-box;
