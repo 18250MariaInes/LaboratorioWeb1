@@ -16,22 +16,22 @@ body{
   background-color: #EBEAEA;
 }
 .topheader{
-	display: -webkit-box;
-  	display: -moz-box;
-  	display: -ms-flexbox;
-  	display: -webkit-flex;
-  	display: flex;
-	/*border: 1px solid black;*/
-	position: relative;
-	background-color: white;
-	height:75px;
-	width: 1550px;            
-	justify-content: flex-start;
-	flex-direction: row;
+  display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  /*border: 1px solid black;*/
+  position: relative;
+  background-color: white;
+  height:75px;
+  /*width: 1550px;  */          
+  justify-content: flex-start;
+  flex-direction: row;
 
 }
 .school_name{
-	color: #019c97;
+  color: #019c97;
     font-size: 2rem;
     font-weight: bold;
     /*flex-grow: 1;*/
@@ -40,7 +40,7 @@ body{
 
 }
 .purpose_name{
-	color: grey;
+  color: grey;
     font-size: 1rem;
     font-weight: bold;
     /*flex-grow: 100;*/
@@ -55,7 +55,7 @@ body{
     align-self: center;*/
 }
 .password_icon{
-	  color: #019c97;
+    color: #019c97;
     font-size: 1rem;
     font-weight: bold;
     flex-direction: row;
@@ -63,34 +63,35 @@ body{
     align-self: center ;
 }
 .righttopheader{
-	display: -webkit-box;
-  	display: -moz-box;
-  	display: -ms-flexbox;
-  	display: -webkit-flex;
-  	display: flex;
-	/*border: 1px solid black;*/
-	position: relative;
-	background-color: white;
-	height:75px;
-	width: 1530px;            
-	justify-content: flex-end;
-	flex-direction: row;
-	overflow: hidden;
+  display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  /*border: 1px solid black;*/
+  position: relative;
+  background-color: white;
+  height:75px;
+  width: 1530px;            
+  justify-content: flex-end;
+  flex-direction: row;
+  overflow: hidden;
 }
 .rightColumn{
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	/*position: relative;*/
-	background-color: white;
-	height:600px;
-	width: 220px;            
-	justify-content: flex-end;
-	flex-direction: column;
-	overflow: hidden;
-	border-radius: 2rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  /*position: relative;*/
+  background-color: white;
+  height:600px;
+  width: 220px;     
+  min-width: 220px;       
+  justify-content: flex-end;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 2rem;
   box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
   display: block;
   margin-top: 2rem;
