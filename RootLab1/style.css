@@ -7,7 +7,7 @@
     flex-direction: row;
     height: 700px;
     position: absolute;
-    width: 1550px;
+    /*width: 1550px;*/
     background-color: #EBEAEA; 
 
     
@@ -86,8 +86,9 @@ body{
   /*position: relative;*/
   background-color: white;
   height:600px;
-  width: 220px;     
-  min-width: 220px;       
+  /*width: 220px; */    
+  min-width: 220px; 
+  max-width: 220px;      
   justify-content: flex-end;
   flex-direction: column;
   overflow: hidden;
